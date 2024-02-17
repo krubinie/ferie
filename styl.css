@@ -1,0 +1,45 @@
+ body {
+    background-color: lightblue;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+	text-align: center;
+color: sand;
+
+  }
+  #snowman {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 300px;
+z-index: 2;
+  }
+#counter {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: darkblue;
+	z-index: 1;
+	
+}
+
+#counter:hover {
+  color: purple; /* zmieniony kolor licznika przy najechaniu myszką */
+}
+#kot {
+  display: block; /* ustawienie elementu na blokowy */
+  margin: auto; /* ustawienie automatycznych marginesów */
+  position: fixed; /* ustawienie elementu na przytwierdzony */
+  bottom: 0; /* ustawienie elementu na dole okna */
+  left: 50%; /* ustawienie elementu na środku osi X */
+  transform: translateX(-50%); 
+	z-index: -1;/* przesunięcie elementu o połowę jego szerokości w lewo */
+}
